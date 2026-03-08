@@ -36,7 +36,7 @@
 # 0 <= nums[i] <= 9
 
 class Solution:
-    def smallestEqual(self, nums: List[int]) -> int:
+    def smallestEqual(self, nums: list[int]) -> int:
         index = -1
         for i in range(len(nums)):
             if (i % 10 == nums[i]):
